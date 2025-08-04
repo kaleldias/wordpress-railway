@@ -1,0 +1,7 @@
+# WordPress uploads de mídia (não versionar)
+wordpress-railway/wp-content/uploads/
+# Volumes do compose
+db_data/
+# Arquivos temporários
+*.log
+*.tmp
