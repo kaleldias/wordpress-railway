@@ -1,5 +1,5 @@
 # use uma tag estável do WP
-FROM wordpress:6.8.2-php8.2-apache
+FROM wordpress:php8.2-apache
 
 # limites PHP (ajuste como preferir)
 COPY uploads.ini /usr/local/etc/php/conf.d/uploads.ini
